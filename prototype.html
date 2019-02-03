@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script>
+
+	<!-- Automatically provides/replaces `Promise` if missing or broken. -->
+	<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script>
+
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css" />
+	<title>botテスト</title>
+</head>
+<body>
+<h1>botuiテスト</h1>
+
+<!-- チャットコンテナのコンテナ -->
+<div class="botui-app-container" id="chat-app">
+<!-- チャットのコンテナ -->
+<bot-ui></bot-ui>
+</div>
+
+<script type="text/javascript" src="./define.js"></script>
+<script type="text/javascript" src="./searchWords.js"></script>
+<script type="text/javascript" src="./sequence.js"></script>
+<script type="text/javascript" src="./messages.js"></script>
+<script type="text/javascript" src="./dispatch.js"></script>
+
+
+</body>
+</html>
