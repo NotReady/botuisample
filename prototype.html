@@ -12,15 +12,40 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css" />
 	<title>botテスト</title>
+
+	<style>
+	.botui-container {
+  	background-image: url("img/image.png");
+		border-radius: 5%;
+		border: solid 5px #eee;
+	}
+
+	header {
+		width: 400px;
+		margin: auto;
+	}
+
+	body {
+		color: #333;
+		font-family: Verdana, sans-serif;
+		margin: 0;
+	}
+	</style>
+
 </head>
 <body>
-<h1>botuiテスト</h1>
+	<header>
+		<h1>botuiテスト</h1>
+	</header>
 
-<!-- チャットコンテナのコンテナ -->
-<div class="botui-app-container" id="chat-app">
-<!-- チャットのコンテナ -->
-<bot-ui></bot-ui>
-</div>
+<section>
+	<!-- チャットコンテナのコンテナ -->
+	<div class="botui-app-container" id="chat-app">
+
+		<!-- チャットのコンテナ -->
+		<bot-ui></bot-ui>
+	</div>
+</section>
 
 <script type="text/javascript" src="./define.js"></script>
 <script type="text/javascript" src="./searchWords.js"></script>
